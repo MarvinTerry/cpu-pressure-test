@@ -23,5 +23,3 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Generated plots
-plots/
