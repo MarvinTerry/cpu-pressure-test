@@ -1,0 +1,4 @@
+file_name,conditioon
+data/s-tui_log_2026-03-18_12_06_24.csv, no heat sink and exposed in air
+data/s-tui_log_2026-03-18_12_23_39.csv, no heat sink and fixed in model
+data/s-tui_log_2026-03-18_12_32_54.csv, heat sink with fan on and exposed in air
