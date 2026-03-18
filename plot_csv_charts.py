@@ -22,6 +22,7 @@ FREQ_COLUMNS = ["Frequency:Core 0", "Frequency:Core 1", "Frequency:Core 2"]
 UTIL_COLUMN = "Util:Avg"
 PLOT_COLUMNS = [TEMP_COLUMN, *FREQ_COLUMNS, UTIL_COLUMN]
 DESCRIPTION_CSV = "DISCRIPTION.csv"
+SUBPLOT_HEIGHT_RATIOS = [1, 1, 1 / 3]
 
 
 def load_descriptions(description_csv: Path) -> dict[str, str]:
@@ -67,7 +68,14 @@ def plot_csv(csv_path: Path, output_dir: Path, descriptions: dict[str, str]) -> 
     df = load_csv(csv_path)
     title = descriptions.get(csv_path.name) or descriptions.get(str(csv_path.relative_to(PROJECT_ROOT))) or csv_path.stem
 
-    fig, axes = plt.subplots(3, 1, figsize=(16, 10), sharex=True, constrained_layout=True)
+    fig, axes = plt.subplots(
+        3,
+        1,
+        figsize=(16, 8),
+        sharex=True,
+        constrained_layout=True,
+        gridspec_kw={"height_ratios": SUBPLOT_HEIGHT_RATIOS},
+    )
     fig.suptitle(title, fontsize=14)
 
     axes[0].plot(df[TIME_COLUMN], df[TEMP_COLUMN], color="#d1495b", linewidth=1.8)
