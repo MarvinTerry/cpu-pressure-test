@@ -101,6 +101,27 @@ data/s-tui_log_2026-03-18_12_23_39.csv, no heat sink and fixed in model
 
 绘图脚本会按文件名匹配描述，并将描述写入图表标题。如果某个实验 CSV 在 `DISCRIPTION.csv` 中没有对应描述，则回退为 CSV 文件名。
 
+## 测试条件说明
+
+本项目中的测试平台为 Firefly `ROC-RK3588S-PC` 主板。
+
+`data/DISCRIPTION.csv` 中各实验条件的含义如下：
+
+- `no heat sink and exposed in air`：主板未安装散热器，裸板暴露在空气中运行
+- `no heat sink and fixed in model`：主板未安装散热器，放置在无人机球壳内部进行封闭测试
+- `heat sink with fan on and exposed in air`：主板安装 Firefly 官方散热器，风扇开启，暴露在空气中运行
+- `heat sink with fan off and exposed in air`：主板安装 Firefly 官方散热器，风扇关闭，暴露在空气中运行
+
+也就是说：
+
+- `no heat sink` 表示裸板运行，不安装 heat sink
+- `fixed in model` 表示主板固定在无人机球壳内部，属于封闭环境测试
+- `heat sink` 表示使用 Firefly 官方散热器
+
+如果需要对外同步测试条件，可以使用下面这段描述：
+
+> 测试使用 Firefly ROC-RK3588S-PC 主板进行。`no heat sink` 条件下为裸板运行；`fixed in model` 表示将主板放入无人机球壳内部进行封闭测试；`heat sink` 条件下使用 Firefly 官方散热器，其中分别测试了风扇开启和关闭两种情况。
+
 ## 图表处理方式
 
 绘图脚本为：
