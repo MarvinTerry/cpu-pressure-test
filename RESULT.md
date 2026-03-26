@@ -10,9 +10,15 @@
 | 2 | no heat sink and fixed in model | [`s-tui_log_2026-03-18_12_23_39.png`](plots/s-tui_log_2026-03-18_12_23_39.png) | N/A |
 | 3 | stock heat sink with fan on and exposed in air | [`s-tui_log_2026-03-18_12_32_54.png`](plots/s-tui_log_2026-03-18_12_32_54.png) | [`stock heat sink.jpg`](img/stock%20heat%20sink.jpg) |
 | 4 | stock heat sink with fan off and exposed in air | [`s-tui_log_2026-03-18_13_20_30.png`](plots/s-tui_log_2026-03-18_13_20_30.png) | [`stock heat sink.jpg`](img/stock%20heat%20sink.jpg) |
-| 5 | copper heat sink #1 10.5g with fan off and exposed in air | [`s-tui_log_2026-03-23_03_33_44.png`](plots/s-tui_log_2026-03-23_03_33_44.png) | [`copper heat sink #1.jpg`](img/copper%20heat%20sink%20%231.jpg) |
-| 6 | aluminium heat sink #1 2.4g with fan off and exposed in air | [`s-tui_log_2026-03-23_04_00_40.png`](plots/s-tui_log_2026-03-23_04_00_40.png) | [`aluminium heat sink #1.jpg`](img/aluminium%20heat%20sink%20%231.jpg) |
-| 7 | aluminium heat sink #2 6.9g with fan off and exposed in air | [`s-tui_log_2026-03-23_04_09_27.png`](plots/s-tui_log_2026-03-23_04_09_27.png) | [`aluminium heat sink #2.jpg`](img/aluminium%20heat%20sink%20%232.jpg) |
+| 5 | copper heat sink #1 10.5g with fan off and exposed in air | [`s-tui_log_2026-03-23_03_33_44.png`](plots/s-tui_log_2026-03-23_03_33_44.png) | [`copper heat sink #1 10.5g with fan off.jpg`](img/copper%20heat%20sink%20%231%2010.5g%20with%20fan%20off.jpg) |
+| 6 | aluminium heat sink #1 2.4g with fan off and exposed in air | [`s-tui_log_2026-03-23_04_00_40.png`](plots/s-tui_log_2026-03-23_04_00_40.png) | [`aluminium heat sink #1 2.4g with fan off.jpg`](img/aluminium%20heat%20sink%20%231%202.4g%20with%20fan%20off.jpg) |
+| 7 | aluminium heat sink #2 6.9g with fan off and exposed in air | [`s-tui_log_2026-03-23_04_09_27.png`](plots/s-tui_log_2026-03-23_04_09_27.png) | [`aluminium heat sink #2 6.9g with fan off.jpg`](img/aluminium%20heat%20sink%20%232%206.9g%20with%20fan%20off.jpg) |
+| 8 | aluminium heat sink #2 with custom fan #1 and exposed in air | [`s-tui_log_2026-03-26_03_59_50.png`](plots/s-tui_log_2026-03-26_03_59_50.png) | [`aluminium heat sink #2 with custom fan #1.jpg`](img/aluminium%20heat%20sink%20%232%20with%20custom%20fan%20%231.jpg) |
+| 9 | aluminium heat sink #2 with custom fan #2 and exposed in air | [`s-tui_log_2026-03-26_04_16_01.png`](plots/s-tui_log_2026-03-26_04_16_01.png) | [`aluminium heat sink #2 with custom fan #2.jpg`](img/aluminium%20heat%20sink%20%232%20with%20custom%20fan%20%232.jpg) |
+| 10 | aluminium heat sink #2 with custom fan #3 and exposed in air | [`s-tui_log_2026-03-26_06_21_39.png`](plots/s-tui_log_2026-03-26_06_21_39.png) | [`aluminium heat sink #2 with custom fan #3.jpg`](img/aluminium%20heat%20sink%20%232%20with%20custom%20fan%20%233.jpg) |
+| 11 | aluminium heat sink #1 with custom fan #3 and exposed in air | [`s-tui_log_2026-03-26_06_35_59.png`](plots/s-tui_log_2026-03-26_06_35_59.png) | [`aluminium heat sink #1 with custom fan #3.jpg`](img/aluminium%20heat%20sink%20%231%20with%20custom%20fan%20%233.jpg) |
+| 12 | aluminium heat sink #1 with custom fan #1 and exposed in air | [`s-tui_log_2026-03-26_06_49_24.png`](plots/s-tui_log_2026-03-26_06_49_24.png) | [`aluminium heat sink #1 with custom fan #1.jpg`](img/aluminium%20heat%20sink%20%231%20with%20custom%20fan%20%231.jpg) |
+| 13 | aluminium heat sink #1 with custom fan #2 and exposed in air | [`s-tui_log_2026-03-26_07_47_50.png`](plots/s-tui_log_2026-03-26_07_47_50.png) | [`aluminium heat sink #1 with custom fan #2.jpg`](img/aluminium%20heat%20sink%20%231%20with%20custom%20fan%20%232.jpg) |
 
 ## 1. no heat sink and exposed in air
 
@@ -74,7 +80,7 @@
 
 - CSV: `data/s-tui_log_2026-03-23_03_33_44.csv`
 - Plot: `plots/s-tui_log_2026-03-23_03_33_44.png`
-- Photo: `img/copper heat sink #1.jpg`
+- Photo: `img/copper heat sink #1 10.5g with fan off.jpg`
 
 ### Plot
 
@@ -82,13 +88,13 @@
 
 ### Test Photo
 
-<img src="img/copper%20heat%20sink%20%231.jpg" alt="copper heat sink #1 10.5g with fan off and exposed in air photo" height="400" />
+<img src="img/copper%20heat%20sink%20%231%2010.5g%20with%20fan%20off.jpg" alt="copper heat sink #1 10.5g with fan off and exposed in air photo" height="400" />
 
 ## 6. aluminium heat sink #1 2.4g with fan off and exposed in air
 
 - CSV: `data/s-tui_log_2026-03-23_04_00_40.csv`
 - Plot: `plots/s-tui_log_2026-03-23_04_00_40.png`
-- Photo: `img/aluminium heat sink #1.jpg`
+- Photo: `img/aluminium heat sink #1 2.4g with fan off.jpg`
 
 ### Plot
 
@@ -96,13 +102,13 @@
 
 ### Test Photo
 
-<img src="img/aluminium%20heat%20sink%20%231.jpg" alt="aluminium heat sink #1 2.4g with fan off and exposed in air photo" height="400" />
+<img src="img/aluminium%20heat%20sink%20%231%202.4g%20with%20fan%20off.jpg" alt="aluminium heat sink #1 2.4g with fan off and exposed in air photo" height="400" />
 
 ## 7. aluminium heat sink #2 6.9g with fan off and exposed in air
 
 - CSV: `data/s-tui_log_2026-03-23_04_09_27.csv`
 - Plot: `plots/s-tui_log_2026-03-23_04_09_27.png`
-- Photo: `img/aluminium heat sink #2.jpg`
+- Photo: `img/aluminium heat sink #2 6.9g with fan off.jpg`
 
 ### Plot
 
@@ -110,4 +116,88 @@
 
 ### Test Photo
 
-<img src="img/aluminium%20heat%20sink%20%232.jpg" alt="aluminium heat sink #2 6.9g with fan off and exposed in air photo" height="400" />
+<img src="img/aluminium%20heat%20sink%20%232%206.9g%20with%20fan%20off.jpg" alt="aluminium heat sink #2 6.9g with fan off and exposed in air photo" height="400" />
+
+## 8. aluminium heat sink #2 with custom fan #1 and exposed in air
+
+- CSV: `data/s-tui_log_2026-03-26_03_59_50.csv`
+- Plot: `plots/s-tui_log_2026-03-26_03_59_50.png`
+- Photo: `img/aluminium heat sink #2 with custom fan #1.jpg`
+
+### Plot
+
+<img src="plots/s-tui_log_2026-03-26_03_59_50.png" alt="aluminium heat sink #2 with custom fan #1 and exposed in air plot" height="600" />
+
+### Test Photo
+
+<img src="img/aluminium%20heat%20sink%20%232%20with%20custom%20fan%20%231.jpg" alt="aluminium heat sink #2 with custom fan #1 and exposed in air photo" height="400" />
+
+## 9. aluminium heat sink #2 with custom fan #2 and exposed in air
+
+- CSV: `data/s-tui_log_2026-03-26_04_16_01.csv`
+- Plot: `plots/s-tui_log_2026-03-26_04_16_01.png`
+- Photo: `img/aluminium heat sink #2 with custom fan #2.jpg`
+
+### Plot
+
+<img src="plots/s-tui_log_2026-03-26_04_16_01.png" alt="aluminium heat sink #2 with custom fan #2 and exposed in air plot" height="600" />
+
+### Test Photo
+
+<img src="img/aluminium%20heat%20sink%20%232%20with%20custom%20fan%20%232.jpg" alt="aluminium heat sink #2 with custom fan #2 and exposed in air photo" height="400" />
+
+## 10. aluminium heat sink #2 with custom fan #3 and exposed in air
+
+- CSV: `data/s-tui_log_2026-03-26_06_21_39.csv`
+- Plot: `plots/s-tui_log_2026-03-26_06_21_39.png`
+- Photo: `img/aluminium heat sink #2 with custom fan #3.jpg`
+
+### Plot
+
+<img src="plots/s-tui_log_2026-03-26_06_21_39.png" alt="aluminium heat sink #2 with custom fan #3 and exposed in air plot" height="600" />
+
+### Test Photo
+
+<img src="img/aluminium%20heat%20sink%20%232%20with%20custom%20fan%20%233.jpg" alt="aluminium heat sink #2 with custom fan #3 and exposed in air photo" height="400" />
+
+## 11. aluminium heat sink #1 with custom fan #3 and exposed in air
+
+- CSV: `data/s-tui_log_2026-03-26_06_35_59.csv`
+- Plot: `plots/s-tui_log_2026-03-26_06_35_59.png`
+- Photo: `img/aluminium heat sink #1 with custom fan #3.jpg`
+
+### Plot
+
+<img src="plots/s-tui_log_2026-03-26_06_35_59.png" alt="aluminium heat sink #1 with custom fan #3 and exposed in air plot" height="600" />
+
+### Test Photo
+
+<img src="img/aluminium%20heat%20sink%20%231%20with%20custom%20fan%20%233.jpg" alt="aluminium heat sink #1 with custom fan #3 and exposed in air photo" height="400" />
+
+## 12. aluminium heat sink #1 with custom fan #1 and exposed in air
+
+- CSV: `data/s-tui_log_2026-03-26_06_49_24.csv`
+- Plot: `plots/s-tui_log_2026-03-26_06_49_24.png`
+- Photo: `img/aluminium heat sink #1 with custom fan #1.jpg`
+
+### Plot
+
+<img src="plots/s-tui_log_2026-03-26_06_49_24.png" alt="aluminium heat sink #1 with custom fan #1 and exposed in air plot" height="600" />
+
+### Test Photo
+
+<img src="img/aluminium%20heat%20sink%20%231%20with%20custom%20fan%20%231.jpg" alt="aluminium heat sink #1 with custom fan #1 and exposed in air photo" height="400" />
+
+## 13. aluminium heat sink #1 with custom fan #2 and exposed in air
+
+- CSV: `data/s-tui_log_2026-03-26_07_47_50.csv`
+- Plot: `plots/s-tui_log_2026-03-26_07_47_50.png`
+- Photo: `img/aluminium heat sink #1 with custom fan #2.jpg`
+
+### Plot
+
+<img src="plots/s-tui_log_2026-03-26_07_47_50.png" alt="aluminium heat sink #1 with custom fan #2 and exposed in air plot" height="600" />
+
+### Test Photo
+
+<img src="img/aluminium%20heat%20sink%20%231%20with%20custom%20fan%20%232.jpg" alt="aluminium heat sink #1 with custom fan #2 and exposed in air photo" height="400" />
